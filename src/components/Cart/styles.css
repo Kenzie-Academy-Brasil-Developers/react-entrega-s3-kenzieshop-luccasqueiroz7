@@ -1,0 +1,103 @@
+.cart {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.detailsCart {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 90vw;
+  max-width: 300px;
+  border: 1px solid blueviolet;
+  gap: 7px;
+  background-color: rgb(238, 240, 241);
+}
+
+.detailsCart > h2 {
+  font-size: 16px;
+}
+
+.detailsCart > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsCart > div > p {
+  font-weight: 500;
+}
+
+.detailsCart > button {
+  align-self: center;
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.cart > ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.cart > ul > li {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  max-width: 525px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  gap: 5px;
+  border: 1px solid blueviolet;
+  align-items: center;
+  background-color: rgb(238, 240, 241);
+}
+
+.cart > ul > li > img {
+  width: 20vw;
+  max-width: 100px;
+  height: 80px;
+}
+
+.cart > ul > li > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart > ul > li > div > p {
+  font-weight: 500;
+}
+
+.cart > ul > li > div > button {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 700;
+  max-width: 110px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .cart {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 10px;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  .detailsCart {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+}

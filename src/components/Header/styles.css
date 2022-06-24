@@ -1,0 +1,60 @@
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh 2vw;
+  background-color: rgb(238, 240, 241);
+  border-bottom: 1px solid blueviolet;
+}
+
+header > h1 {
+  font-size: 18px;
+}
+
+.detailsHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonCart,
+.login {
+  display: flex;
+  gap: 1px;
+}
+
+.buttonCart > button,
+.login > button {
+  border: none;
+  background-color: rgb(238, 240, 241);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.buttonCart > button:hover,
+.login > button:hover {
+  text-decoration: underline;
+}
+
+.counterItens {
+  display: flex;
+  align-self: flex-start;
+  padding: 0 5px;
+  border: 1px solid blueviolet;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 426px) {
+  header > h1 {
+    font-size: 24px;
+  }
+}
