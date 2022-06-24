@@ -9,7 +9,7 @@ function Header() {
   const history = useHistory();
   return (
     <header>
-      <h1>Kenzie Shop</h1>
+      <h1>LQ Store</h1>
       <div className="detailsHeader">
         <div className="buttonCart">
           <img src={cartImg} alt="cart" />
